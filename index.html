@@ -4,40 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Casa Criativa</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
   <link href="visual.css" rel="stylesheet">
 </head>
 <body>
- 
-    <h1>Casa Criativa</h1>
 
+    <div id="container">
 
-    <img  class ="logo" src="img/logo.png" alt="logo" title="logotipo">
+          <section id="intro">
+           
+          <header>
+            <img  class ="logo" src="img/logo.png" alt="logo" title="logotipo">
+          </header>
 
+          <main>
+          <p align="justify">Ficar em casa em periodos, não deve ser nada fácil</p>
+          <p align="justify">Por isso, iremos catalogar ideias, bricadeiras, jogos, filmes, livros,cursos, dicas</p>
+          <p align="justify">Comece cicando em ver ideias para ver ideias cadastradas</p>
+          </main>
 
+          <section id="buttons">
+        <button>+ adicionar tela</button>
+        <button class="btn ideia">ver ideias</button>
 
-    <p>Ficar em casa em periodos, não deve ser nada fácil</p>
+          </section>
 
-    <p>Por isso, iremos catalogar ideias, bricadeiras, jogos, filmes, livros,cursos, dicas
-      Comece cicando em ver ideias para ver ideias cadastradas
-    </p>
-    
-    <button>+ adicionar tela</button>
-    <button class="btn ideia">ver ideias</button>
+          <footer>
+          com 💙<a href="">Rocketseat </a>
+          </footer>
 
-    <p id="footer">com 💙 Rocketseat</p>
+          </section>
 
-    <script>
+          <section id="last-ideias">
+              <div class="idea">
+                  <img 
+                  src="img/ferramenta.png"
+                  alt="imagem de Curso de pROGRAMAÇÃO">
+              
+                  <div class="content">
+                    <h3 align="justify">Cursos de programação</h3>
+                    <p align="justify">Estudo</p>
+                    <div class="description" align="justify">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit
+                    </div>
+                    <a href="a" align="justify"> ir para a Ideia</a>
+                  </div>
+              </div>
 
-        document.querySelector(".btn")
-        .addEventListener("click", function(){
-          document
-          .querySelector("#footer")
-          .classList
-          .toggle("hide")
-        })
+              <div class="idea">
+                <img 
+                src="img/robot.png"
+                alt="imagem de robótica">
+            
+                <div class="content">
+                  <h3 align="justify">Robótica</h3>
+                  <p align="justify">Estudo</p>
+                  <div class="description" align="justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit 
+                  </div>
+                  <a href="a"> ir para a Ideia</a>
+                </div>
+              </div>
 
-    </script>
+              <div class="idea">
+              <img 
+              src="img/monitor.png"
+              alt="imagem de Exercicios">
+          
+              <div class="content">
+                <h3 align="justify">Exercicios</h3>
+                <p align="justify"> Estudo</p>
+                <div class="description" align="justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit ipsam repudiandae facere harum sapiente porro nostrum dolor.
+                </div>
+                <a href="a" align="justify"> ir para a Ideia</a>
+              </div>
+              </div>
+          </section>
 
-  
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

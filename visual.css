@@ -1,20 +1,122 @@
 body{
   background: #e5e5e5;
   color:#252828;
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin:0;
+}
+
+.hide{
+  display: none;
+}
+
+a{
+  color:#ff5e84;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+P, .description{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+#container{
+  width: 98%;
+  max-width: 980px;
+  margin: 48px auto;
+  
+  display: flex;
+}
+
+#intro{
+  width: 380;
+
+  margin-right: 20px;
+}
+
+main{
+  margin: 32px 0 ;
 }
 
 button {
     color: #ff5e84;
     border: none;
     font-weight: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+button:hover{
+  text-decoration: underline;
 }
 
 .btn.ideia{
   color:#fff;
   background: #ff5e84; ;
+  width: 158px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px #fca2b7;
 }
 
-.hide{
-  display: none;
+#buttons{
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+footer{
+  text-align: center ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #777;
+}
+
+footer a{
+    opacity: 0.8;
+}
+
+.idea{
+  display: flex;
+  border-radius: 8px;
+  background-color: rgb(206, 203, 203);
+  margin-bottom: 32px;
+  padding: 32px;
+  box-shadow: 0 4px 16px -8px rgba(1, 1,1,0.1);
+
+  
+}
+
+.idea img{
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.idea h3{
+  margin: 0;
+}
+
+.idea p{
+  margin:8px 0px;
+  color:rgb(105, 104, 104);
+}
+
+.idea .description{
+  margin:16px o;
 }
